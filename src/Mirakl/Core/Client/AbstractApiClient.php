@@ -77,7 +77,7 @@ abstract class AbstractApiClient implements ApiClientInterface
      *
      * @var array
      */
-    protected $options = ['connect_timeout' => 5];
+    protected $options = ['connect_timeout' => 60];
 
     /**
      * Handle query parameters that will be merged
